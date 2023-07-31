@@ -1,0 +1,113 @@
+.App {
+  margin: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+button {
+  font-family: 'Inconsolata';
+  font-size: 15px;
+  font-weight: 900;
+  color: #292C33;
+  background-color: #82D7F7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #292C33;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+h1 {  
+  font-size: 40px;
+  font-weight: 900;
+  margin: 10px;
+}
+
+h2 {  
+  font-size: 20px;
+  font-weight: 900;
+  margin: 10px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px;
+  color: #82D7F7;
+}
+
+.radio-buttons label{
+  font-family: 'Inconsolata';
+  font-size: 15px;
+  font-weight: 900;
+  color: #292C33;
+  background-color: #82D7F7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.radio-buttons label:hover{
+  background-color: #ffffff;
+  color: #292C33;
+  cursor: pointer;
+}
+
+.radio-buttons {
+  margin: 15px;
+}
+
+
+.radio-buttons input {
+  display: none;
+}
+
+textarea {
+  background-color: #292C33;
+  color: white;
+  border: 2px solid #82D7F7;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.result-images{
+  justify-content: center;
+  margin: 15px;
+}
+
+img {
+  margin: 20px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
+  margin-left: 5px;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}

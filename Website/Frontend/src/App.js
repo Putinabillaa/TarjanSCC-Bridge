@@ -161,7 +161,7 @@ function App() {
             <p> Bridges: {result.Bridges.map((bridge) => JSON.stringify(bridge)).join(", ")}</p>
             <p> {result.ExecTime} </p>
             <div className='result-images'>
-              <p> SCCs Visualization: </p>
+              <p> Graph Visualization: </p>
               <img key={0} src={`${result.ImageSrc[0]}?cb=${cacheBustingQueryParam}`} alt={`Graph`} />
               <p> SCCs Visualization: </p>
               <img key={1} src={`${result.ImageSrc[1]}?cb=${cacheBustingQueryParam}`} alt={`SCC`} />

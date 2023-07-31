@@ -11,7 +11,7 @@ import (
 /* Visualize graph */
 
 func visualizeGraph(g *DirGraph) error {
-	graphAst, err := gographviz.ParseString(`digraph G {bgcolor="#292C33";}`)
+	graphAst, err := gographviz.ParseString(`digraph G {bgcolor="#0E1116";}`)
 	if err != nil {
 		return fmt.Errorf("error parsing graph: %w", err)
 	}
@@ -61,7 +61,7 @@ func visualizeGraph(g *DirGraph) error {
 /* Visualize bridge */
 
 func visualizeBridge(g *UnDirGraph) error {
-	graphAst, err := gographviz.ParseString(`digraph G {bgcolor="#292C33";}`)
+	graphAst, err := gographviz.ParseString(`digraph G {bgcolor="#0E1116";}`)
 	if err != nil {
 		return fmt.Errorf("error parsing graph: %w", err)
 	}
@@ -85,7 +85,7 @@ func visualizeBridge(g *UnDirGraph) error {
 
 			attrs := make(map[string]string)
 			if isBridge {
-				attrs["color"] = "lightblue"
+				attrs["color"] = "blue"
 			} else {
 				attrs["color"] = "darkgrey"
 			}
@@ -121,7 +121,7 @@ func visualizeBridge(g *UnDirGraph) error {
 }
 
 func visualizeSCC(g *DirGraph) error {
-	graphAst, err := gographviz.ParseString(`digraph G {bgcolor="#292C33";}`)
+	graphAst, err := gographviz.ParseString(`digraph G {bgcolor="#0E1116";}`)
 	if err != nil {
 		return fmt.Errorf("error parsing graph: %w", err)
 	}

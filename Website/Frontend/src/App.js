@@ -20,6 +20,7 @@ function App() {
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
+    if (!file) {return;}
     if (file.type !== 'text/plain') {showErrorToast("Error file format, file should be a txt");}
     setFileInput(file);
   };

@@ -35,6 +35,7 @@
   - Masukan input melalui file txt atau teks dengan format yang sama dengan format input CLI.
   - Klik tombol `Find`
   - Output akan ditampilkan dalam bentuk teks array beserta visualisasinya. Waktu eksekusi juga akan ditampilkan. Contoh output:
+
     ![Screenshot 2023-07-31 at 11 02 1](https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/a3b6f3fd-9e11-4a6b-a713-5e6e6d32bce4)
     
 ## 2. Algoritma Tarjan

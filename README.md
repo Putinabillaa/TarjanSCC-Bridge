@@ -3,10 +3,10 @@
 
 ## 1. Cara penggunaan
 ### Untuk CLI:
-  <p align="center">
-      <img src="https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/2e7b6c48-a8af-4a2d-a4ab-71c6a611f32b" alt="SCC Bridge Finder - CLI" width="500px" />
-    </p>
 
+<p align="center">
+<img src="https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/5451ab55-bc3f-4ebf-8e16-a5eba1a4c4a6" alt="SCC Bridge Finder - CLI" width="500px" />
+</p>
   - Jalankan command `make run` pada directory `CLI`
   - Setelah program berjalan, masukan metode input: `1. from file` untuk memasukan input graf dari file txt atau `2. from terminal` untuk mengetikan input graf pada terminal. Pada input, setap baris mewakili edge pada graf berarah dengan format: `<nama node asal> <spasi> <nama node tujuan>`. Contoh input file txt:
       
@@ -21,13 +21,13 @@
   - Masukan input sesuai instruksi
   - Output akan ditampilkan dalam bentuk teks array dengan visualisasi yang tersimpan dalam folder `output` dalam directory `CLI` dengan nama `graph.png` untuk visualisasi graph, `bridge.png` untuk visualisasi bridge, dan `scc.png` untuk visualisasi SCC. Waktu eksekusi juga akan ditampilkan. Contoh output:
     
-    ![image](https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/d9a5906b-5dc6-4379-a7e8-f89314196856)
-    ![image](https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/d447fb5c-2229-4328-99a7-5aa62d72c29f)
-    ![image](https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/f6bae86b-be31-48e2-a7ba-66ade4906730)
+    ![257888951-d447fb5c-2229-4328-99a7-5aa62d72c29f](https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/8bfd1713-dfcd-45b5-abee-66b660391926)
+![257888951-d447fb5c-2229-4328-99a7-5aa62d72c29f](https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/02769098-d5a5-403b-9507-ee47c2111a18)
+![257889391-f6bae86b-be31-48e2-a7ba-66ade4906730](https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/47b974ff-a8c7-426c-b54e-2b2c550f45c5)
 
   ### Untuk Web:
   <p align="center">
-    <img src="https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/5c6c8c76-d2aa-4792-adf2-15cea37b3376" alt="SCC Bridge Finder - CLI" width="500px" />
+   <img src="https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/b277b146-5cf1-415d-ab93-1d94cfe78b81" alt="SCC Bridge Finder - CLI" width="500px" />
   </p>
   
   - Jalankan command `make run` pada directory `Website/Backend` untuk menjalankan server. Server akan berjalan pada `http://localhost:8080`
@@ -36,7 +36,8 @@
   - Klik tombol `Find`
   - Output akan ditampilkan dalam bentuk teks array beserta visualisasinya. Waktu eksekusi juga akan ditampilkan. Contoh output:
 
-    ![Screenshot 2023-07-31 at 11 02 1](https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/a3b6f3fd-9e11-4a6b-a713-5e6e6d32bce4)
+![257894172-a3b6f3fd-9e11-4a6b-a713-5e6e6d32bce4](https://github.com/Putinabillaa/TarjanSCC-Bridge/assets/109022993/5ab535ac-85a4-498a-a7ca-83084266a2ba)
+
     
 ## 2. Algoritma Tarjan
 ### Kompleksitas
